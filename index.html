@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Kulchick Design | Web and Graphic Design</title>
+ 
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800" rel="stylesheet">
+ 
+ <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link href="styles.css" rel="stylesheet">
+<link rel="icon" href="img/favicon.png">
+
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-default" >
+       <div class="container">
+     <!-- start collapsed navbar -->
+      <div class="navbar-header">
+      <a href='index.html' class="navbar-brand"><span id="brand"><img src="#" alt="" id="logo" /></span></a>
+                <button 
+          type="button" 
+          class="navbar-toggle collapsed"
+          data-toggle="collapse" data-target="#main_navbar"
+          aria-expanded="false">
+          <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div> <!--- end of collapsed navbar -->
+        <!-- start uncollapsed navbar -->
+        <div class="collapse navbar-collapse" 
+        id="main_navbar">
+              <ul class="nav navbar-nav nav-center">
+                <li class="active"><a href="index.html">home</a></li>
+                <li><a href="web.html">web design</a></li>
+                <li ><a href="graphic.html">graphic design</a></li>
+                <li><a href="ink.html">illustration</a></li>
+                <li><a href="motion.html">motion</a></li>
+              </ul>
+            </div>
+      </div> <!-- container -->
+    </nav>
+
+<div class="container-fluid" style="background-color: #222"> 
+<div class="container">
+<div class="col-md-12">
+<div class="row">
+
+<p id="instruct"> move the mouse to create more wind</p>
+<!-- MAIN CONTENT -->
+<canvas id="tree" width="1000" height="700" style="background-color: #222">
+</canvas>
+
+</div>
+</div>
+</div>
+</div>
+
+<footer id="foot">
+<p>copyright &copy;ankak 2017</p>
+<p> 
+</footer>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+   <!--  <script src="script.js"></script> -->
+     <script src="js/canvas.js"></script>
+</body>
+</html>
